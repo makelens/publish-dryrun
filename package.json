@@ -1,5 +1,5 @@
 {
-  "name": "publish-dryrun",
+  "name": "@derive-ts/publish-dryrun",
   "license": "MIT",
   "version": "0.0.1",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "version": "pnpm changeset"
+    "release": "pnpm run build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
