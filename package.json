@@ -1,12 +1,12 @@
 {
-  "name": "@derive-ts/publish-dryrun",
+  "name": "@makelens/publish-dryrun",
   "license": "MIT",
   "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": {
-    "url": "git://github.com/derive-ts/publish-dryrun.git"
+    "url": "git://github.com/makelens/publish-dryrun.git"
 
   },
   "scripts": {
