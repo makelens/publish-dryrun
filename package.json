@@ -2,19 +2,19 @@
   "name": "@makelens/publish-dryrun",
   "license": "MIT",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": {
     "url": "git://github.com/makelens/publish-dryrun.git"
-
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
+    "bump": "pnpm changeset add",
     "lint": "tsc",
     "release": "pnpm run build && changeset publish",
-    "version": "pnpm changeset add"
+    "version": "pnpm changeset version"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
@@ -22,4 +22,3 @@
     "typescript": "^5.2.2"
   }
 }
-
