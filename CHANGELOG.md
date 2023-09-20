@@ -1,5 +1,11 @@
 # @makelens/publish-dryrun
 
+## 0.0.3
+
+### Patch Changes
+
+- db14e95: adds readme
+
 ## 0.0.2
 
 ### Patch Changes
