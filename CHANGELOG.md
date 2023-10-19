@@ -1,5 +1,11 @@
 # @makelens/publish-dryrun
 
+## 0.0.5
+
+### Patch Changes
+
+- 1a321ed: abcd
+
 ## 0.0.4
 
 ### Patch Changes
