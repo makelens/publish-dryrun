@@ -1,5 +1,11 @@
 # @makelens/publish-dryrun
 
+## 0.0.6
+
+### Patch Changes
+
+- 1b65285: jkl
+
 ## 0.0.5
 
 ### Patch Changes
